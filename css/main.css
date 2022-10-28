@@ -187,6 +187,9 @@
   margin-top: 3rem;
   padding-bottom: 2rem;
 }
+.overview * {
+  transition: all 0.2s;
+}
 .overview h3 {
   font-size: clamp(1.5rem, 5vw, 2.5rem);
   font-weight: 700;

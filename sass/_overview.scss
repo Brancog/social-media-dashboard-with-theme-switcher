@@ -1,6 +1,10 @@
 .overview {
   margin-top: 3rem;
   padding-bottom: 2rem;
+
+  * {
+    transition: all 0.2s;
+  }
   h3 {
     font-size: clamp(1.5rem, 5vw, 2.5rem);
     font-weight: $font-weight-bold;
