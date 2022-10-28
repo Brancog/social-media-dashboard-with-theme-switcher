@@ -1,0 +1,87 @@
+// BODY
+.body--dark-mode {
+  background-color: $color-bg-very-dark-blue;
+
+  &::before {
+    content: "";
+  }
+}
+
+// HEADER
+.header--dark-mode {
+  .header__wrapper {
+    .header__heading {
+      h1 {
+        color: $color-text-white;
+      }
+
+      span {
+        color: $color-text-desaturated-blue;
+      }
+    }
+    hr {
+      border-top: 2px solid $color-light-theme-toggle;
+    }
+    .header__theme-toggle {
+      span {
+        color: $color-text-desaturated-blue;
+      }
+      &-btn {
+        background: $color-lime-green;
+
+        &::before {
+          box-shadow: none;
+          background: $color-bg-very-dark-blue;
+          box-shadow: -2px 4px 30px 10px rgba(55, 143, 230, 1);
+        }
+      }
+    }
+  }
+}
+// CARDS
+.cards--dark-mode {
+  .cards__card {
+    background-color: $color-card-bg-dark-desaturated-blue;
+  }
+  .cards__card-content {
+    .cards__card-social {
+      span {
+        color: $color-text-desaturated-blue;
+      }
+    }
+
+    .cards__card-followers {
+      h2 {
+        color: $color-text-white;
+      }
+      span {
+        color: $color-text-desaturated-blue;
+      }
+    }
+    .cards__card-today {
+      span {
+      }
+    }
+  }
+}
+
+// OVERVIEW
+.overview--dark-mode {
+  h3 {
+    color: $color-text-white;
+  }
+  .overview__card {
+    background-color: $color-card-bg-dark-desaturated-blue;
+
+    &-stat {
+      span {
+        &:nth-child(1) {
+          color: $color-text-desaturated-blue;
+        }
+        &:nth-child(2) {
+          color: $color-text-white;
+        }
+      }
+    }
+  }
+}

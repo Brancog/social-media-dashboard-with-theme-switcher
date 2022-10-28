@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script defer src="main.js"></script>
+    <script defer src="theme-switch.js"></script>
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__heading">
+            <h1>Social Media Dashboard</h1>
+            <span>Total Followers: 23,004</span>
+          </div>
+          <hr class="header__hr" />
+          <div class="header__theme-toggle">
+            <span>Dark Mode</span>
+            <div class="header__theme-toggle-switch">
+              <input id="header__toggle-btn" type="checkbox" />
+              <label
+                for="header__toggle-btn"
+                for="btn2"
+                class="header__theme-toggle-btn"
+              ></label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="cards">
+          <div class="cards__card">
+            <div class="cards__card-content">
+              <div class="cards__card-social">
+                <img
+                  src="images/icon-facebook.svg"
+                  alt="facebook icon"
+                  class=""
+                />
+                <span>@nathanf</span>
+              </div>
+              <div class="cards__card-followers">
+                <h2>1987</h2>
+                <span>followers</span>
+              </div>
+              <div class="cards__card-today">
+                <img src="images/icon-up.svg" alt="" />
+                <span class="positive">12 Today</span>
+              </div>
+            </div>
+          </div>
+          <div class="cards__card">
+            <div class="cards__card-content">
+              <div class="cards__card-social">
+                <img
+                  src="images/icon-twitter.svg"
+                  alt="twitter icon"
+                  class=""
+                />
+                <span>@nathanf</span>
+              </div>
+              <div class="cards__card-followers">
+                <h2>1044</h2>
+                <span>followers</span>
+              </div>
+              <div class="cards__card-today">
+                <img src="images/icon-up.svg" alt="" />
+                <span class="positive">99 Today</span>
+              </div>
+            </div>
+          </div>
+          <div class="cards__card">
+            <div class="cards__card-content">
+              <div class="cards__card-social">
+                <img
+                  src="images/icon-instagram.svg"
+                  alt="instagram icon"
+                  class=""
+                />
+                <span>@nathanf</span>
+              </div>
+              <div class="cards__card-followers">
+                <h2>11k</h2>
+                <span>followers</span>
+              </div>
+              <div class="cards__card-today">
+                <img src="images/icon-up.svg" alt="" />
+                <span class="positive">1099 Today</span>
+              </div>
+            </div>
+          </div>
+          <div class="cards__card">
+            <div class="cards__card-content">
+              <div class="cards__card-social">
+                <img
+                  src="images/icon-youtube.svg"
+                  alt="youtube icon"
+                  class=""
+                />
+                <span>@nathanf</span>
+              </div>
+              <div class="cards__card-followers">
+                <h2>8239</h2>
+                <span>followers</span>
+              </div>
+              <div class="cards__card-today">
+                <img src="images/icon-down.svg" alt="" />
+                <span class="negative">144 Today</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overview">
+          <h3>Overview - Today</h3>
+          <div class="overview__card-grid">
+            <div class="overview__card">
+              <div class="overview__card-stat">
+                <span>Page Views</span>
+
+                <span>87</span>
+              </div>
+              <div class="overview__card-social">
+                <img src="images/icon-facebook.svg" alt="facebook icon" />
+                <div class="overview__card-social-stat-change">
+                  <img src="images/icon-up.svg" alt="" />
+                  <span class="positive">3%</span>
+                </div>
+              </div>
+            </div>
+            <div class="overview__card">
+              <div class="overview__card-stat">
+                <span>Likes</span>
+
+                <span>52</span>
+              </div>
+              <div class="overview__card-social">
+                <img src="images/icon-facebook.svg" alt="facebook icon" />
+                <div
+                  class="overview__card-social-stat-change overview__card-social-stat-change--negative"
+                >
+                  <img src="images/icon-down.svg" alt="" />
+                  <span class="negative">2%</span>
+                </div>
+              </div>
+            </div>
+            <div class="overview__card">
+              <div class="overview__card-stat">
+                <span>Likes</span>
+
+                <span>5462</span>
+              </div>
+              <div class="overview__card-social">
+                <img src="images/icon-instagram.svg" alt="facebook icon" />
+                <div
+                  class="overview__card-social-stat-change overview__card-social-stat-change--positive"
+                >
+                  <img src="images/icon-up.svg" alt="" />
+                  <span class="positive">2257%</span>
+                </div>
+              </div>
+            </div>
+            <div class="overview__card">
+              <div class="overview__card-stat">
+                <span>Profile Views</span>
+
+                <span>52k</span>
+              </div>
+              <div class="overview__card-social">
+                <img src="images/icon-instagram.svg" alt="facebook icon" />
+                <div
+                  class="overview__card-social-stat-change overview__card-social-stat-change--positive"
+                >
+                  <img src="images/icon-up.svg" alt="" />
+                  <span class="positive">1375%</span>
+                </div>
+              </div>
+            </div>
+            <div class="overview__card">
+              <div class="overview__card-stat">
+                <span>Retweets</span>
+
+                <span>117</span>
+              </div>
+              <div class="overview__card-social">
+                <img src="images/icon-twitter.svg" alt="facebook icon" />
+                <div
+                  class="overview__card-social-stat-change overview__card-social-stat-change--positive"
+                >
+                  <img src="images/icon-up.svg" alt="" />
+                  <span class="positive">303%</span>
+                </div>
+              </div>
+            </div>
+            <div class="overview__card">
+              <div class="overview__card-stat">
+                <span>Likes</span>
+
+                <span>507</span>
+              </div>
+              <div class="overview__card-social">
+                <img src="images/icon-twitter.svg" alt="facebook icon" />
+                <div
+                  class="overview__card-social-stat-change overview__card-social-stat-change--positive"
+                >
+                  <img src="images/icon-up.svg" alt="" />
+                  <span class="positive">553%</span>
+                </div>
+              </div>
+            </div>
+            <div class="overview__card">
+              <div class="overview__card-stat">
+                <span>Likes</span>
+
+                <span>107</span>
+              </div>
+              <div class="overview__card-social">
+                <img src="images/icon-youtube.svg" alt="facebook icon" />
+                <div
+                  class="overview__card-social-stat-change overview__card-social-stat-change--negative"
+                >
+                  <img src="images/icon-down.svg" alt="" />
+                  <span class="negative">19%</span>
+                </div>
+              </div>
+            </div>
+            <div class="overview__card">
+              <div class="overview__card-stat">
+                <span>Total Views</span>
+
+                <span>1407</span>
+              </div>
+              <div class="overview__card-social">
+                <img src="images/icon-youtube.svg" alt="facebook icon" />
+                <div
+                  class="overview__card-social-stat-change overview__card-social-stat-change--negative"
+                >
+                  <img src="images/icon-down.svg" alt="" />
+                  <span class="negative">12%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

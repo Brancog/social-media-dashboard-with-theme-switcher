@@ -1,0 +1,16 @@
+{
+  "name": "social-media-dashboard-with-theme-switcher-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)",
+  "main": "main.js",
+  "scripts": {
+    "sass-watch": "sass --no-source-map --watch sass/main.scss css/main.css",
+    "dev": "npm run sass-watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}

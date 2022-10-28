@@ -1,0 +1,13 @@
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 95rem;
+  margin: 0 auto;
+}
+
+.positive {
+  color: $color-lime-green;
+}
+.negative {
+  color: $color-bright-red;
+}

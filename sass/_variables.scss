@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Inter:wght@400;700&display=swap");
+
+// COLORS
+$color-lime-green: rgb(29, 180, 137);
+$color-bright-red: rgb(220, 65, 76);
+$color-facebook: rgb(25, 143, 245);
+$color-twitter: rgb(28, 160, 242);
+$color-instagram-gradient: linear-gradient(to right, #fdc468, #df4996);
+$color-youtube: rgb(196, 3, 42);
+
+$color-dark-theme-toggle-gradient: linear-gradient(#378fe6 to #3eda82);
+$color-light-theme-toggle: rgb(174, 179, 203);
+
+// DARK THEME COLORS
+$color-bg-very-dark-blue: rgb(30, 32, 42);
+$color-top-bg-pattern-very-dark-blue: rgb(31, 33, 46);
+$color-card-bg-dark-desaturated-blue: rgb(37, 42, 65);
+$color-text-desaturated-blue: rgb(139, 151, 198);
+$color-text-white: rgb(255, 255, 255);
+
+// LIGHT THEME COLORS
+$color-top-bg-pattern-very-pale-blue: rgb(245, 247, 255);
+$color-card-bg-light-grayish-blue: rgb(240, 242, 250);
+$color-text-dark-grayish-blue: rgb(99, 104, 126);
+$color-text-very-dark-blue: rgb(30, 32, 42);
+
+// TYPOGRAPHY
+$font-family-default: "Inter", sans-serif;
+$font-size-default: 0.875rem;
+$font-weight-regular: 400;
+$font-weight-bold: 700;

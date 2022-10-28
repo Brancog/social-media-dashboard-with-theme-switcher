@@ -1,0 +1,80 @@
+// BODY
+.body--light-mode {
+  background-color: $color-text-white;
+
+  &::before {
+    content: none;
+  }
+}
+
+// HEADER
+.header--light-mode {
+  .header__wrapper {
+    .header__heading {
+      h1 {
+        color: $color-text-very-dark-blue;
+      }
+
+      span {
+        color: $color-text-dark-grayish-blue;
+      }
+    }
+    hr {
+      border-top: 2px solid $color-light-theme-toggle;
+    }
+    .header__theme-toggle {
+      span {
+        color: $color-text-dark-grayish-blue;
+      }
+      &-btn {
+        background: $color-light-theme-toggle;
+
+        &::before {
+          box-shadow: none;
+          background: $color-text-white;
+        }
+      }
+    }
+  }
+}
+// CARDS
+.cards--light-mode {
+  .cards__card {
+    background-color: $color-card-bg-light-grayish-blue;
+  }
+  .cards__card-content {
+    .cards__card-followers {
+      h2 {
+        color: $color-bg-very-dark-blue;
+      }
+      span {
+        color: $color-text-dark-grayish-blue;
+      }
+    }
+    .cards__card-today {
+      span {
+      }
+    }
+  }
+}
+
+// OVERVIEW
+.overview--light-mode {
+  h3 {
+    color: $color-text-dark-grayish-blue;
+  }
+  .overview__card {
+    background-color: $color-card-bg-light-grayish-blue;
+
+    &-stat {
+      span {
+        &:nth-child(1) {
+          color: $color-text-dark-grayish-blue;
+        }
+        &:nth-child(2) {
+          color: $color-bg-very-dark-blue;
+        }
+      }
+    }
+  }
+}
